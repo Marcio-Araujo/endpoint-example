@@ -8,6 +8,6 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo(){
-        return "Backend endpoint accessed";
+        return "Backend endpoint access test";
     }
 }
